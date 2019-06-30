@@ -1,0 +1,5 @@
+<resources>
+  <string name="str_sources_title">Sources</string>
+  <string name="str_bookmark_news_title">Add my read-later list</string>
+  <string name="str_un_bookmark_news_title">Remove from my read-later list</string>
+</resources>

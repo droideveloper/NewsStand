@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="176" id="6n3-fL-ZEI" customClass="SourceSimpleCell" customModule="NewsStand" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="565" height="176"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6n3-fL-ZEI" id="d36-8u-0r4">
+                <rect key="frame" x="0.0" y="0.0" width="565" height="175.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3d-pG-qMO">
+                        <rect key="frame" x="20" y="8" width="525" height="29"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="24"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.63529411764705879" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAO-9E-vjT">
+                        <rect key="frame" x="20" y="45" width="525" height="122.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Z3d-pG-qMO" firstAttribute="top" secondItem="d36-8u-0r4" secondAttribute="top" constant="8" id="By5-C5-df2"/>
+                    <constraint firstAttribute="trailing" secondItem="Z3d-pG-qMO" secondAttribute="trailing" constant="20" id="DQT-B2-1Xb"/>
+                    <constraint firstAttribute="bottom" secondItem="ZAO-9E-vjT" secondAttribute="bottom" constant="8" id="ThW-R2-t6Y"/>
+                    <constraint firstItem="Z3d-pG-qMO" firstAttribute="leading" secondItem="d36-8u-0r4" secondAttribute="leading" constant="20" id="hJJ-ns-Eox"/>
+                    <constraint firstAttribute="trailing" secondItem="ZAO-9E-vjT" secondAttribute="trailing" constant="20" id="k1P-Fk-P4e"/>
+                    <constraint firstItem="ZAO-9E-vjT" firstAttribute="leading" secondItem="d36-8u-0r4" secondAttribute="leading" constant="20" id="lA3-z5-ebW"/>
+                    <constraint firstItem="ZAO-9E-vjT" firstAttribute="top" secondItem="Z3d-pG-qMO" secondAttribute="bottom" constant="8" id="yCf-P4-DWg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="viewTextSpot" destination="ZAO-9E-vjT" id="2qz-Ck-JX7"/>
+                <outlet property="viewTextTitle" destination="Z3d-pG-qMO" id="zCv-YD-hX0"/>
+            </connections>
+            <point key="canvasLocation" x="138.40579710144928" y="83.705357142857139"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,17 @@
+//
+//  TabletNavigation.swift
+//  NewsStand
+//
+//  Created by Fatih Şen on 29.06.2019.
+//  Copyright © 2019 Fatih Şen. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+class TabletNavigation: Navigation<Source> {
+	
+	override func navigate(controller: UIViewController, payload: Source?) {
+		// no-opt
+	}
+}
